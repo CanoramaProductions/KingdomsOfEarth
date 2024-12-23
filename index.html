@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingdoms of Earth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kingdoms of Earth</h1>
+        <p>Create and manage your kingdom on a dynamic world map.</p>
+    </header>
+
+    <section class="editor">
+        <button class="edit-btn" onclick="changeTerrain('land')">Land</button>
+        <button class="edit-btn" onclick="changeTerrain('water')">Water</button>
+        <button class="edit-btn" onclick="changeTerrain('mountain')">Mountain</button>
+    </section>
+
+    <section id="terrain-grid" class="terrain-grid"></section>
+
+    <script src="script.js"></script>
+</body>
+</html>
