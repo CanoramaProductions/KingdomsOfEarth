@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.terrain-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    gap: 2px;
+    margin: 0 auto;
+    max-width: 540px;
+}
+
+.terrain {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.tile-land {
+    background-color: green;
+}
+
+.tile-water {
+    background-color: blue;
+}
+
+.tile-mountain {
+    background-color: gray;
+}
+
+.editor {
+    margin-bottom: 20px;
+}
+
+.edit-btn {
+    padding: 10px;
+    margin: 5px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #ccc;
+}
